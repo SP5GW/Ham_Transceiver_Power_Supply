@@ -1,0 +1,11 @@
+* File     : ltspice_transil_model.lib
+* Revision : 1.0
+* Date     : January 2024
+*
+* 1.5KE15A DSV diode model derived from information provided by STMicroelectronics in file 1_5KE.lib
+* available at: https://www.st.com/en/protections-and-emi-filters/transient-voltage-suppressors-tvs.html#cad-resources
+*
+* Andrzej Mazur SP5GW
+
+
+.model 1.5KE15A D(IS=0.5u N=1 XTI=1 Rs=0.028 Cjo=1p TT=1u BV=15  IBV=1m IKF=1000 M=.3333 VJ=.6 ISR=1n mfg=ST type=Transil_TVS)
